@@ -18,16 +18,18 @@ dist/
 build/
 
 # ──────────────────────────────────────────────
-# TensorFlow / Keras — Modèles lourds
+# TensorFlow / Keras — Modèles (.keras ignorés, .tflite conservés)
 # ──────────────────────────────────────────────
 models/
-best_model/
 logs/
 *.keras
 *.h5
-*.tflite
 *.pb
 *.ckpt
+
+# Inclure les modèles TFLite légers indispensables au backend
+!best_model/
+!best_model/*.tflite
 
 # ──────────────────────────────────────────────
 # Jupyter
