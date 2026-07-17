@@ -1,0 +1,282 @@
+{
+  "apple": {
+    "name_fr": "Pomme",
+    "emoji": "🍎",
+    "fresh": {
+      "tips": [
+        "Conservez vos pommes dans le bac à légumes du réfrigérateur pour prolonger leur fraîcheur jusqu'à 4-6 semaines.",
+        "Évitez de les stocker près de légumes à feuilles : les pommes dégagent de l'éthylène qui les fait jaunir.",
+        "Consommez-les telles quelles, en compote, en tarte ou en smoothie pour profiter de tous leurs nutriments."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Coupez les parties abîmées et réalisez une compote maison parfumée à la cannelle ou à la vanille.",
+        "Préparez un délicieux gâteau invisible aux pommes ou un crumble express.",
+        "Faites-les cuire à la poêle avec du beurre et du sucre de coco pour un accompagnement chaud.",
+        "Utilisez les épluchures propres pour réaliser un vinaigre de cidre maison.",
+        "Composez un smoothie en mixant avec du yaourt et une banane : les imperfections s'effacent complètement."
+      ]
+    }
+  },
+  "banana": {
+    "name_fr": "Banane",
+    "emoji": "🍌",
+    "fresh": {
+      "tips": [
+        "Conservez vos bananes à température ambiante, à l'abri de la lumière directe.",
+        "Pour ralentir leur mûrissement, enveloppez la tige dans du film alimentaire.",
+        "Ne les mettez pas au réfrigérateur : la peau noircit mais la chair reste bonne."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Réalisez un banana bread moelleux : les bananes trop mûres donnent une texture parfaite.",
+        "Congelez-les en rondelles pour des smoothies onctueux ou des 'nice cream' maison.",
+        "Mixez-les avec du lait pour un milk-shake maison sucré naturellement.",
+        "Ajoutez-les dans votre muesli ou votre porridge du matin.",
+        "Préparez des pancakes à la banane (2 ingrédients : banane + œuf)."
+      ]
+    }
+  },
+  "bellpepper": {
+    "name_fr": "Poivron",
+    "emoji": "🫑",
+    "fresh": {
+      "tips": [
+        "Conservez vos poivrons entiers dans le réfrigérateur jusqu'à 1 semaine.",
+        "Coupés, ils se gardent 3-4 jours dans une boîte hermétique.",
+        "Vous pouvez les congeler directement après les avoir coupés en lanières."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Retirez la peau et les parties abîmées, puis faites une sauce poivron rôti pour les pâtes.",
+        "Préparez un velouté de poivrons grillés avec des épices orientales.",
+        "Incorporez-les dans une ratatouille avec les autres légumes du frigo.",
+        "Réalisez un dip-hummus maison en mixant avec des pois chiches et du tahini.",
+        "Faites-les mariner avec de l'huile d'olive et de l'ail comme tapas."
+      ]
+    }
+  },
+  "carrot": {
+    "name_fr": "Carotte",
+    "emoji": "🥕",
+    "fresh": {
+      "tips": [
+        "Retirez les fanes avant de ranger les carottes au réfrigérateur : elles absorbent l'humidité.",
+        "Conservez-les dans un contenant d'eau au réfrigérateur pour qu'elles restent croquantes.",
+        "Les carottes entières se gardent 3 à 4 semaines au frigo."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Râpez-les pour une salade de carottes râpées assaisonnée au citron et au cumin.",
+        "Réalisez un velouté de carottes au gingembre, idéal et anti-gaspi.",
+        "Faites un gâteau aux carottes (carrot cake) moelleux : les carottes abîmées donnent une texture parfaite.",
+        "Incorporez-les dans des galettes de légumes ou des falafels.",
+        "Utilisez-les pour un bouillon de légumes maison très nutritif."
+      ]
+    }
+  },
+  "cucumber": {
+    "name_fr": "Concombre",
+    "emoji": "🥒",
+    "fresh": {
+      "tips": [
+        "Enveloppez le concombre dans du papier absorbant avant de le réfrigérer pour absorber l'humidité.",
+        "Ne le coupez pas avant de le stocker : il se conserve mieux entier.",
+        "Consommez-le dans les 3-4 jours suivant l'achat pour un maximum de fraîcheur."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Retirez les parties molles et utilisez le reste dans un gazpacho rafraîchissant.",
+        "Préparez un raita indien (yaourt, concombre, menthe) comme accompagnement.",
+        "Réalisez de la tzatziki même avec des concombres moins frais, mixés finement.",
+        "Faites-les mariner dans du vinaigre et du sel pour des pickles rapides.",
+        "Utilisez-les dans un smoothie vert rafraîchissant avec citron et menthe."
+      ]
+    }
+  },
+  "grape": {
+    "name_fr": "Raisin",
+    "emoji": "🍇",
+    "fresh": {
+      "tips": [
+        "Conservez les raisins non lavés au réfrigérateur dans leur emballage d'origine.",
+        "Lavez-les uniquement au moment de la consommation pour éviter la moisissure.",
+        "Ils se conservent 1 à 2 semaines au réfrigérateur."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Retirez les grains abîmés et faites confiture ou gelée de raisins maison.",
+        "Préparez un jus de raisin frais en les pressant.",
+        "Incorporez-les dans un chutney épicé pour accompagner du fromage.",
+        "Faites-les compoter avec un peu de sucre et de cannelle comme topping pour yaourt.",
+        "Congelez les grains sains pour en faire de petits sorbets."
+      ]
+    }
+  },
+  "guava": {
+    "name_fr": "Goyave",
+    "emoji": "🍈",
+    "fresh": {
+      "tips": [
+        "La goyave mûrit à température ambiante. Une fois mûre, conservez-la au réfrigérateur.",
+        "Elle se garde 3-5 jours au frigo une fois mûre.",
+        "Consommez-la nature, en smoothie ou avec du yaourt."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Préparez une confiture de goyave très parfumée et sucrée naturellement.",
+        "Faites une pâte de goyave (goiabada) pour accompagner du fromage.",
+        "Réalisez un jus ou un nectar de goyave passé au tamis.",
+        "Incorporez-la dans un smoothie tropical avec mangue et ananas.",
+        "Faites-en un sorbet en mixant la pulpe avec du jus de citron vert."
+      ]
+    }
+  },
+  "jujube": {
+    "name_fr": "Jujube",
+    "emoji": "🍒",
+    "fresh": {
+      "tips": [
+        "Conservez les jujubes frais au réfrigérateur jusqu'à 2 semaines.",
+        "Séchés, ils se conservent plusieurs mois à température ambiante.",
+        "Consommez-les nature comme snack ou ajoutez-les dans des thés."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Réalisez une confiture de jujubes sucrée et légèrement acidulée.",
+        "Faites-les sécher au four à basse température pour les conserver longtemps.",
+        "Préparez une tisane en faisant bouillir les jujubes dans de l'eau.",
+        "Incorporez-les dans un cake aux fruits secs et noix.",
+        "Faites-en une compote à utiliser en topping sur des crêpes."
+      ]
+    }
+  },
+  "mango": {
+    "name_fr": "Mangue",
+    "emoji": "🥭",
+    "fresh": {
+      "tips": [
+        "Conservez la mangue à température ambiante jusqu'à ce qu'elle soit mûre.",
+        "Une fois mûre, rangez-la au réfrigérateur où elle se gardera 5 jours.",
+        "Coupée, conservez-la dans une boîte hermétique au frigo 3 jours maximum."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Mixez la pulpe en smoothie tropical avec banane et lait de coco.",
+        "Réalisez un lassi à la mangue (yaourt indien) très rafraîchissant.",
+        "Préparez un chutney de mangue épicé pour accompagner des plats indiens.",
+        "Faites une glace à la mangue maison en mixant la pulpe congelée.",
+        "Réalisez une tarte tropicale avec une crème à la mangue passée."
+      ]
+    }
+  },
+  "orange": {
+    "name_fr": "Orange",
+    "emoji": "🍊",
+    "fresh": {
+      "tips": [
+        "Conservez vos oranges à température ambiante jusqu'à 1 semaine, ou 2-3 semaines au réfrigérateur.",
+        "Évitez de les mettre dans un sac hermétique : elles ont besoin d'air.",
+        "Les zestes se congèlent très bien pour parfumer vos futures pâtisseries."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Pressez-les pour faire un jus frais même si la peau est abîmée.",
+        "Réalisez des orangettes au chocolat avec les zestes encore exploitables.",
+        "Faites une marmelade maison avec pulpe et zestes.",
+        "Préparez une sauce à l'orange pour accompagner de la volaille.",
+        "Utilisez le jus dans une vinaigrette maison ou une marinade."
+      ]
+    }
+  },
+  "pomegranate": {
+    "name_fr": "Grenade",
+    "emoji": "🍎",
+    "fresh": {
+      "tips": [
+        "Conservez la grenade entière à température ambiante jusqu'à 1 mois.",
+        "Une fois ouverte, les graines se gardent 5 jours au réfrigérateur dans une boîte.",
+        "Les graines peuvent être congelées jusqu'à 6 mois."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Récupérez les graines saines pour un jus de grenade antioxydant.",
+        "Incorporez-les dans une salade de fruits ou de légumes pour la couleur et la saveur.",
+        "Préparez un sirop de grenade (grenadine maison) pour cocktails et desserts.",
+        "Faites une sauce à la grenade pour accompagner des salades de roquette.",
+        "Utilisez le jus pour une marinade de viande ou de tofu."
+      ]
+    }
+  },
+  "potato": {
+    "name_fr": "Pomme de terre",
+    "emoji": "🥔",
+    "fresh": {
+      "tips": [
+        "Conservez les pommes de terre dans un endroit sombre, frais et bien ventilé.",
+        "Évitez de les réfrigérer : le froid transforme l'amidon en sucre et les rend sucrées.",
+        "Éloignez-les des oignons pour éviter qu'elles ne mûrissent trop vite."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Coupez les parties verdies ou abîmées et réalisez une purée onctueuse.",
+        "Faites des galettes de pommes de terre (rösti) très savoureuses.",
+        "Préparez une soupe de pommes de terre et poireaux réconfortante.",
+        "Réalisez un gratin dauphinois avec les pommes de terre encore exploitables.",
+        "Faites un hachis parmentier en les combinant avec des restes de viande."
+      ]
+    }
+  },
+  "strawberry": {
+    "name_fr": "Fraise",
+    "emoji": "🍓",
+    "fresh": {
+      "tips": [
+        "Conservez les fraises non lavées dans le bac à légumes du réfrigérateur.",
+        "Lavez-les uniquement au moment de la consommation pour éviter la moisissure.",
+        "Conservez-les avec leur queue : elles durent plus longtemps ainsi."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Faites une confiture de fraises maison express avec du sucre et du citron.",
+        "Mixez-les en coulis pour accompagner des glaces, yaourts ou panna cotta.",
+        "Préparez une compote de fraises pour garnir des crêpes ou des pancakes.",
+        "Faites-en une mousse de fraises légère avec du yaourt grec.",
+        "Congelez la pulpe pour des smoothies fruités toute l'année."
+      ]
+    }
+  },
+  "tomato": {
+    "name_fr": "Tomate",
+    "emoji": "🍅",
+    "fresh": {
+      "tips": [
+        "Ne mettez jamais les tomates au réfrigérateur : le froid bloque leur maturation et détruit leur saveur.",
+        "Conservez-les côté pédoncule vers le bas, à température ambiante.",
+        "Elles se conservent 5 à 7 jours ainsi."
+      ]
+    },
+    "rotten": {
+      "tips": [
+        "Réalisez une sauce tomate maison concentrée à faire réduire 30 minutes.",
+        "Préparez un gazpacho espagnol rafraîchissant avec les autres légumes du frigo.",
+        "Faites un coulis de tomates à congeler pour l'hiver.",
+        "Réalisez une soupe minestrone avec les tomates abîmées et des pâtes.",
+        "Faites des tomates séchées au four à basse température pour les conserver longtemps."
+      ]
+    }
+  }
+}

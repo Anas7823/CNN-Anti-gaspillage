@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans bg-forest-950 text-white;
+  }
+}
+
+@layer components {
+  /* ── Buttons ── */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-fresh font-semibold text-white px-6 py-3
+           rounded-2xl shadow-lg shadow-fresh/30 transition-all duration-300
+           hover:bg-fresh-dark hover:scale-105 hover:shadow-fresh/50 active:scale-95;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 border border-forest-600 text-forest-300
+           px-6 py-3 rounded-2xl transition-all duration-300
+           hover:bg-forest-800 hover:text-white active:scale-95;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border border-white/20 text-white/80
+           px-5 py-2.5 rounded-xl text-sm transition-all duration-300
+           hover:bg-white/10 hover:text-white active:scale-95;
+  }
+
+  /* ── Cards ── */
+  .card {
+    @apply bg-forest-900/60 backdrop-blur-sm border border-forest-700/40
+           rounded-3xl p-6 shadow-xl;
+  }
+  .card-glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10
+           rounded-3xl p-6 shadow-xl;
+  }
+
+  /* ── Status badges ── */
+  .badge-fresh {
+    @apply inline-flex items-center gap-1.5 bg-fresh/20 text-fresh border border-fresh/30
+           rounded-full px-3 py-1 text-sm font-semibold;
+  }
+  .badge-rotten {
+    @apply inline-flex items-center gap-1.5 bg-rotten/20 text-rotten border border-rotten/30
+           rounded-full px-3 py-1 text-sm font-semibold;
+  }
+
+  /* ── Section headers ── */
+  .section-title {
+    @apply font-display font-bold text-3xl md:text-4xl text-white;
+  }
+  .section-subtitle {
+    @apply text-forest-300 text-lg leading-relaxed;
+  }
+
+  /* ── Drop zone ── */
+  .drop-zone {
+    @apply border-2 border-dashed border-forest-600 rounded-3xl p-10
+           transition-all duration-300 cursor-pointer text-center
+           hover:border-fresh hover:bg-fresh/5;
+  }
+  .drop-zone.active {
+    @apply border-fresh bg-fresh/10 scale-105;
+  }
+
+  /* ── Loader ── */
+  .scan-line {
+    @apply absolute left-0 right-0 h-1 bg-gradient-to-r from-transparent via-fresh to-transparent
+           animate-scan rounded-full;
+  }
+
+  /* ── Navbar ── */
+  .nav-link {
+    @apply text-forest-300 hover:text-white text-sm font-medium transition-colors duration-200 px-3 py-2 rounded-lg hover:bg-forest-800;
+  }
+  .nav-link.active {
+    @apply text-white bg-forest-800;
+  }
+
+  /* ── KPI cards ── */
+  .kpi-card {
+    @apply card text-center hover:border-fresh/40 hover:-translate-y-1 transition-all duration-300 cursor-default;
+  }
+}
+
+/* ── Glassmorphism hero gradient ── */
+.hero-glow {
+  background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(34,197,94,0.18) 0%, transparent 70%);
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #052e16; }
+::-webkit-scrollbar-thumb { background: #166534; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #22c55e; }

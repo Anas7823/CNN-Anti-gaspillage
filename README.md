@@ -7,7 +7,56 @@ Ce projet vise à concevoir un modèle de Deep Learning capable de classifier de
 Le jeu de données utilisé provient de Kaggle (`zlatan599/fruitquality1/Unified_Dataset`). 
 - **Nettoyage :** Une vérification d'intégrité rigoureuse a été effectuée à l'aide de `PIL` et `tf.io` pour supprimer les fichiers corrompus ou illisibles.
 - **Répartition :** Le dataset a été divisé en un ensemble d'entraînement (80%, ~23 400 images) et un ensemble de validation (20%, ~5 800 images).
-- **Classes :** 28 classes au total, combinant le type de produit et son état (ex: `apple_fresh`, `apple_rotten`, `banana_fresh`, etc.).
+- **Classes supportées (28 au total) :** Le modèle gère 14 types de fruits et légumes, chacun avec 2 états possibles : **frais** (`_fresh`) ou **avarié/abîmé** (`_rotten`).
+
+Voici la liste exhaustive des classes renvoyées par le modèle :
+
+| Fruit / Légume | Classe "Frais" | Classe "Avarié" |
+| :--- | :--- | :--- |
+| **Pomme (Apple)** | `apple_fresh` | `apple_rotten` |
+| **Banane (Banana)** | `banana_fresh` | `banana_rotten` |
+| **Poivron (Bellpepper)** | `bellpepper_fresh` | `bellpepper_rotten` |
+| **Carotte (Carrot)** | `carrot_fresh` | `carrot_rotten` |
+| **Concombre (Cucumber)** | `cucumber_fresh` | `cucumber_rotten` |
+| **Raisin (Grape)** | `grape_fresh` | `grape_rotten` |
+| **Goyave (Guava)** | `guava_fresh` | `guava_rotten` |
+| **Jujube (Jujube)** | `jujube_fresh` | `jujube_rotten` |
+| **Mangue (Mango)** | `mango_fresh` | `mango_rotten` |
+| **Orange (Orange)** | `orange_fresh` | `orange_rotten` |
+| **Grenade (Pomegranate)** | `pomegranate_fresh` | `pomegranate_rotten` |
+| **Pomme de terre (Potato)** | `potato_fresh` | `potato_rotten` |
+| **Fraise (Strawberry)** | `strawberry_fresh` | `strawberry_rotten` |
+| **Tomate (Tomato)** | `tomato_fresh` | `tomato_rotten` |
+
+Le format d'indexation correspond à l'ordre alphabétique suivant (ordre exact de sortie du réseau) :
+1. `apple_fresh`
+2. `apple_rotten`
+3. `banana_fresh`
+4. `banana_rotten`
+5. `bellpepper_fresh`
+6. `bellpepper_rotten`
+7. `carrot_fresh`
+8. `carrot_rotten`
+9. `cucumber_fresh`
+10. `cucumber_rotten`
+11. `grape_fresh`
+12. `grape_rotten`
+13. `guava_fresh`
+14. `guava_rotten`
+15. `jujube_fresh`
+16. `jujube_rotten`
+17. `mango_fresh`
+18. `mango_rotten`
+19. `orange_fresh`
+20. `orange_rotten`
+21. `pomegranate_fresh`
+22. `pomegranate_rotten`
+23. `potato_fresh`
+24. `potato_rotten`
+25. `strawberry_fresh`
+26. `strawberry_rotten`
+27. `tomato_fresh`
+28. `tomato_rotten`
 
 ## 🏗️ Architecture et Approches Expérimentées
 
